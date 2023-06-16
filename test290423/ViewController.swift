@@ -21,13 +21,13 @@ class ViewController: UIViewController {
     
     lazy var label: UILabel = {
         let view = UILabel()
-        view.text = "Добро пожаловать на наше приложение!"
+        view.text = "Welcome to our application APP!"
         return view
     }()
     
     lazy var button: UIButton = {
         let view = UIButton(type: .system)
-        view.setTitle("Начать!", for: .normal)
+        view.setTitle("Start!", for: .normal)
         view.backgroundColor = .systemRed
         view.setTitleColor(.white, for: .normal)
         view.tintColor = .white
